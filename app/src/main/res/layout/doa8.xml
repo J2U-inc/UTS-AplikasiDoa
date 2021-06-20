@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoaActivity8"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Do'a Keluar Kamar Mandi"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Dengan menyebut Nama Allah Yang Maha Pengasih lagi Maha Penyayang"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txtAyat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:text="غُفْرَانَكَ الْحَمْدُ لِلهِ الذي أَذْهَبَ عَنِّيْ الْأَذَى وَعَافَانِيْ اللهم اجْعَلْنِيْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِيْ مِنَ الْمُتَطَهِّرِيْنَ. اللَّهُمَّ طَهِّرْ قَلْبِيْ مِنَ النِّفَاقِ وَحَصِّنْ فَرْجِيْ مِنَ الْفَوَاحِشِ"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="Guhfroonaka alhamdulillahi alladzi adzhaba ‘anni al-adza wa ‘aafaani. Allahumma ij’alni minat tawwaabiina waj’alni minal mutathohhiriin. Allahumma thohhir qolbi minan nifaaqi wa hashshin farji minal fawaahisyi."
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/txtLatin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Artinya :"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtTerjemahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Dengan mengharap ampunanmu, segala puji bagi Allah yang telah menghilangkan penyakit dari tubuhku, dan menyehatkan aku. Ya Allah, jadikanlah aku sebagai bagian orang yang bertobat dan jadikanlah aku bagian dari orang yang suci. Ya Allah, bersihkan hatiku dari kemunafikan, dan jaga kelaminku dari perbuatan keji (zina)."
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

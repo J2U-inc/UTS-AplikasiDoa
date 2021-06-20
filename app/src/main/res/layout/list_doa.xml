@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoveActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bck2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="List Do'a Harian"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_doa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a Untuk Kedua Orang Tua"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/btn_doa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a Sebelum tidur"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/btn_doa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a setelah Bangun Tidur"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/btn_doa4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a sebelum makan"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/btn_doa5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a setelah makan"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/btn_doa6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a sebelum belajar"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/btn_doa7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a masuk kamar mandi"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/btn_doa8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a keluar kamar mandi"
+            android:fontFamily="casual"/>
+
+        <Button
+            android:id="@+id/btn_doa9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Do'a Keluar Rumah"
+            android:fontFamily="casual"/>
+
+
+    </LinearLayout>
+</ScrollView>
